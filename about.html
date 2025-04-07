@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Shimmer Gold & Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        .about-banner {
+            background-color: #f2f2f2;
+            padding: 80px 5%;
+            text-align: center;
+        }
+        
+        .about-banner h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .about-banner p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            color: #666;
+        }
+        
+        .about-content {
+            padding: 60px 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        
+        .about-image {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .about-text h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #444;
+        }
+        
+        .values-section {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 80px 5%;
+            text-align: center;
+        }
+        
+        .values-section h3 {
+            font-size: 2rem;
+            margin-bottom: 50px;
+            color: #d4af37;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+        
+        .value-card {
+            background-color: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .value-card:hover {
+            transform: translateY(-10px);
+            background-color: rgba(255,255,255,0.1);
+        }
+        
+        .value-card h4 {
+            color: #d4af37;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .value-card p {
+            color: #ccc;
+        }
+        
+        @media (max-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+                padding: 40px 20px;
+            }
+            
+            .about-banner, .values-section {
+                padding: 60px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>Shimmer</h1>
+            <p class="tagline">"Bring a Touch of Shimmer in your everyday."</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gold-collection.html">Gold Collection</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="about-banner">
+        <h2>Our Story</h2>
+        <p>Discover the passion and craftsmanship behind Shimmer's exclusive jewelry collections.</p>
+    </div>
+
+    <div class="about-content">
+        <div class="about-image">
+            <img src="images/shimmer_logo.jpg" alt="Shimmer Storefront">
+        </div>
+        <div class="about-text">
+            <h3>The Shimmer Journey</h3>
+            <p>Founded with a passion for creating beautiful jewelry that brings elegance to everyday life, Shimmer has grown to become a trusted name in fine jewelry in Malaysia.</p>
+            <p>Our journey began with a simple vision: to create jewelry pieces that not only look stunning but also tell a story. Each piece in our collection is thoughtfully designed and meticulously crafted to ensure the highest quality and uniqueness.</p>
+            <p>We specialize in gold jewelry, silver pieces, and diamond accessories that cater to various tastes and occasions. From classic designs to contemporary styles, our collections offer something special for everyone.</p>
+            <p>At Shimmer, we believe that jewelry is more than just an accessory—it's an expression of personality, a celebration of milestones, and a treasure to be passed down through generations.</p>
+        </div>
+    </div>
+
+    <div class="values-section">
+        <h3>Our Values</h3>
+        <div class="values-grid">
+            <div class="value-card">
+                <h4>Quality</h4>
+                <p>We are committed to using only the finest materials and maintaining the highest standards of craftsmanship in every piece we create.</p>
+            </div>
+            <div class="value-card">
+                <h4>Authenticity</h4>
+                <p>Each Shimmer piece comes with a guarantee of authenticity, ensuring that you receive genuine gold, silver, and diamonds of the specified purity and quality.</p>
+            </div>
+            <div class="value-card">
+                <h4>Innovation</h4>
+                <p>While respecting traditional techniques, we continuously explore new designs and methods to create jewelry that is both timeless and contemporary.</p>
+            </div>
+            <div class="value-card">
+                <h4>Customer Satisfaction</h4>
+                <p>Your happiness is our priority. We strive to provide exceptional service and create jewelry that exceeds your expectations.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Shimmer</h2>
+                <p>"Bring a Touch of Shimmer in your everyday."</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="gold-collection.html">Gold Collection</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@shimmer.com</p>
+                <p>Phone: +123-456-7890</p>
+                <p>Address: Kuala Lumpur, Malaysia</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Shimmer. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
